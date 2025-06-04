@@ -70,6 +70,7 @@ If present, do not remove this function from the global namespace for the
 session.
 
 #>
+$env:Path += ";C:\Program Files\GitHub CLI\"
 function global:deactivate ([switch]$NonDestructive) {
     # Revert to original values
 
