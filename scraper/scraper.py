@@ -60,6 +60,8 @@ def scrape_with_selenium(pages=3):
             # insted of the profile on clutch it should fetch the actual
             # add another source other than cluthch
             # figure the linkdln part
+            # what type of companys am i scraping??
+            # in my search how can i select which type od companys to search ? like advert software etc etc.
 
 
             website = name_tag['href'] if name_tag and name_tag.has_attr('href') else None
