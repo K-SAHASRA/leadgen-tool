@@ -7,29 +7,27 @@ import os
 from selenium.webdriver.common.by import By
 import requests
 from bs4 import BeautifulSoup as BS
-import urllib.parse 
+from urllib.parse import urlparse, parse_qs
+import random
 
+# def find_linkedin(company_name):
+#     query = f"site:linkedin.com/company {company_name} clutch"
+#     url = f"https://www.bing.com/search?q={query}"
+#     headers = {"User-Agent": "Mozilla/5.0"}
 
-def find_linkedin(company_name):
-    query = f"site:linkedin.com/company {company_name}"
-    url = f"https://www.bing.com/search?q={query}"
-    headers = {"User-Agent": "Mozilla/5.0"}
+#     try:
+#         response = requests.get(url, headers=headers, timeout=10)
+#         time.sleep(random.uniform(2, 4))  # polite delay
+#         soup = BS(response.text, "html.parser")
+#         results = soup.select("li.b_algo h2 a")
+#         for result in results:
+#             href = result.get("href", "")
+#             if "linkedin.com/company" in href and "/jobs" not in href and "/people" not in href:
+#                 return href
+#     except Exception as e:
+#         print(f"Error searching LinkedIn for {company_name}: {e}")
 
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        soup = BS(response.text, "html.parser")
-        results = soup.select("li.b_algo h2 a")
-        for result in results:
-            href = result.get("href", "")
-            if "linkedin.com/company" in href:
-                return href
-    except:
-        pass
-
-    return None
-
-
-
+#     return None
 
 
 
@@ -44,7 +42,7 @@ def scrape_with_selenium(pages=3):
         url = f"https://clutch.co/agencies?page={page}"
         print(f"Loading {url} with Selenium")
         driver.get(url)
-        time.sleep(5)  # wait for JS to load
+        time.sleep(5)  # waiting might inscrease not sure yet
 
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         
@@ -57,14 +55,20 @@ def scrape_with_selenium(pages=3):
         for item in listings:
             name_tag = item.select_one("h3.provider__title a")
             name = name_tag.get_text(strip=True) if name_tag else None
-            # insted of the profile on clutch it should fetch the actual
+            # insted of the profile on clutch it should fetch the actual website -done 
             # add another source other than cluthch
             # figure the linkdln part
             # what type of companys am i scraping??
             # in my search how can i select which type od companys to search ? like advert software etc etc.
 
 
-            website = name_tag['href'] if name_tag and name_tag.has_attr('href') else None
+
+            website_tag = item.select_one("a.website-link__item")
+            website = None
+            if website_tag and website_tag.has_attr('href'):
+                raw_href = website_tag['href']
+                parsed_url = urlparse(raw_href)
+                website = parse_qs(parsed_url.query).get('u', [None])[0]
 
 
             location_tag = item.select_one(".provider__highlights-item.location")
@@ -79,7 +83,8 @@ def scrape_with_selenium(pages=3):
             employee_tag = item.select_one(".provider__highlights-item.employees-count")
             employee_size = employee_tag.get_text(strip=True) if employee_tag else None
 
-            linkedin_url = find_linkedin(name) if name else None
+            # linkedin_url = find_linkedin(name) if name else None
+            # linkedin = find_linkedin(name)
 
 
 
@@ -91,7 +96,7 @@ def scrape_with_selenium(pages=3):
                 "rating": rating,
                 "no_reviews": no_reviews,
                 "employee_size": employee_size,
-                "linkedin": linkedin_url
+                # "linkedin": linkedin
 
             })
 
