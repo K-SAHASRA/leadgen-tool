@@ -7,7 +7,7 @@ import os
 from urllib.parse import urlparse, parse_qs
 
 
-# Define category URLs
+# Define category URLs - so far only 3 categories
 
 CATEGORY_URLS = {
     "advertising": "https://clutch.co/agencies?page=",
@@ -202,5 +202,17 @@ if __name__ == "__main__":
     pd.DataFrame(goodfirms_all_leads).to_csv(goodfirms_output_path, index=False)
 
     print(f"Saved GoodFirms leads to: {goodfirms_output_path}")
+
+        # Combine both CSVs into one
+    clutch_df = pd.read_csv(output_path)
+    goodfirms_df = pd.read_csv(goodfirms_output_path)
+
+    combined_df = pd.concat([clutch_df, goodfirms_df], ignore_index=True)
+
+    combined_output_path = os.path.join(data_dir, "combined_leads.csv")
+    combined_df.to_csv(combined_output_path, index=False)
+
+    print(f"Combined Clutch + GoodFirms leads saved to: {combined_output_path}")
+
     
 
