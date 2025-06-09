@@ -1,4 +1,4 @@
-company_name,website,location,rating,no_reviews,employee_size,category,source
+company_name,website,location,rating,no_of_reviews,employee_size,category,source
 Unified Infotech,https://www.unifiedinfotech.net/?utm_source=referral&utm_medium=Goodfirms&utm_id=Goodfirms,"NYC, New York",5.0,(25 Reviews),50 - 249,software,goodfirms
 SDLC Corp,https://sdlccorp.com/?utm_source=good-firms&utm_medium=listing&utm_campaign=homepage,"San Francisco, California",5.0,(129 Reviews),250 - 999,software,goodfirms
 Closeloop Technologies,https://closeloop.com/services/custom-software-development/?utm_source=marketplace&utm_campaign=goodfirms,"Mountain View, California",5.0,(26 Reviews),50 - 249,software,goodfirms

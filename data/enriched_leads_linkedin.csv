@@ -1,31 +1,31 @@
-company_name,website,location,rating,no_reviews,employee_size,category,source,linkedin_url
-Marketbridge,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiJhZTY5YmE2ZS1hNjIxLTRmM2EtYjRiMy04MjFlZDI1MDJhM2YiLCJwcm92aWRlcl9pZCI6MTEzNDMwLCJmZWF0dXJlZF9saXN0aW5nX2lkIjo5LCJmZWF0dXJlZF9wb3NpdGlvbl9pZCI6MjM5MzQyLCJwb3NpdGlvbiI6MSwiaXNfc3BvdGxpZ2h0IjpmYWxzZX0:1uNEPA:chY0etbXYZrxA6lr7bhBg3MjDFfOrIc3Gb5txHd8HVw,"Bethesda, MD",5.0,"11
+company_name,website,location,rating,no_of_reviews,employee_size,category,source,linkedin_url
+WyeWorks,https://wyeworks.com/?utm_source=clutch.co&utm_medium=referral&utm_campaign=developers,"Montevideo, Uruguay",4.9,"10
                         
-                            reviews",250 - 999,advertising,Clutch,https://www.linkedin.com/company/marketbridge
-BrandLume Inc.,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiIwZmRlYTI1NC1lY2RlLTQ5NDQtYWZmYi1hNTI4NDA2YWU5MTEiLCJwcm92aWRlcl9pZCI6ODkxODM1LCJmZWF0dXJlZF9saXN0aW5nX2lkIjo5LCJmZWF0dXJlZF9wb3NpdGlvbl9pZCI6MjM2NzgwLCJwb3NpdGlvbiI6MiwiaXNfc3BvdGxpZ2h0IjpmYWxzZX0:1uNEPA:H-7OhuEkxAAqxOludaSAIWnzp3UBub0-oHwJj1yRkyI,"Toronto, Canada",5.0,"81
+                            reviews",50 - 249,software,Clutch,https://www.linkedin.com/company/wyeworks/
+CodeFulcrum,https://codefulcrum.com/?utm_source=clutch.co&utm_medium=referral&utm_campaign=developers,"Lahore, Pakistan",4.8,"14
                         
-                            reviews",50 - 249,advertising,Clutch,
-Setsail Marketing,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiJmYjU0YjVhMC1iZmIxLTQ3ZTUtOThhNS1kZDdmODg5ZTk1ZmEiLCJwcm92aWRlcl9pZCI6MjIwNzY3MywiZmVhdHVyZWRfbGlzdGluZ19pZCI6OSwiZmVhdHVyZWRfcG9zaXRpb25faWQiOjMwODAwNywicG9zaXRpb24iOjMsImlzX3Nwb3RsaWdodCI6ZmFsc2V9:1uNEPA:CEnP5QIsSUDOXV_vQGgYZiK0YK-Lhuk_IQazYhCS-xE,"Vancouver, Canada",5.0,"3
+                            reviews",50 - 249,software,Clutch,https://www.linkedin.com/company/codefulcrum
+Activeone,https://activeone.co/?utm_source=clutch.co&utm_medium=referral&utm_campaign=directory,"Medellín, Colombia",4.8,"8
                         
-                            reviews",10 - 49,advertising,Clutch,https://ca.linkedin.com/company/setsailmarketing
-BrandLume Inc.,https://brandlume.com/?utm_source=clutch.co&utm_medium=referral,"Toronto, Canada",5.0,"81
+                            reviews",10 - 49,software,Clutch,https://www.linkedin.com/company/activeone-health-inc-/
+Vilmate LLC,https://vilmate.com/?utm_source=clutch.co&utm_medium=referral&utm_campaign=developers,"Warszawa, Poland",5.0,"10
                         
-                            reviews",50 - 249,advertising,Clutch,
-Taoti Creative,https://taoti.com/?utm_medium=referral?utm_medium=referral_profile&utm_source=clutch.co,"Washington, DC",4.9,"15
+                            reviews",50 - 249,software,Clutch,https://www.linkedin.com/company/vilmate
+Devstringx Technologies,https://www.devstringx.com/custom-software-development-services?utm_source=clutch.co&utm_medium=referral&utm_campaign=developers,"Noida, India",4.8,"27
                         
-                            reviews",50 - 249,advertising,Clutch,https://www.linkedin.com/company/taoti-creative-web-design-marketing-&-app-development
-Hotspex Media,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiI3NzJmMjM0Zi0yNWExLTQzZjktYTYxNi1lNDA0MGM0YWZhZGUiLCJwcm92aWRlcl9pZCI6MTM2MzMxNCwiZmVhdHVyZWRfbGlzdGluZ19pZCI6OSwiZmVhdHVyZWRfcG9zaXRpb25faWQiOjIzOTg4MiwicG9zaXRpb24iOjQsImlzX3Nwb3RsaWdodCI6ZmFsc2V9:1uNEPA:CCE85IdsORfOvlltCC8n1bsNylS04SkOm_Dgdas7wM0,"Toronto, Canada",4.9,"15
+                            reviews",250 - 999,software,Clutch,https://www.linkedin.com/company/devstringx-technologies-pvt-ltd
+Nybble Group,https://www.nybblegroup.com/contact-us?utm_source=Clutch&utm_medium=referral,"Buenos Aires, Argentina",4.8,"17
                         
-                            reviews",10 - 49,advertising,Clutch,https://ca.linkedin.com/company/hotspex-media-ads
-Digital Natives,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiI0MTM4M2I5NS1kZjIzLTRmOTgtYTQ1NS1iNjFmYjM0MjViZjUiLCJwcm92aWRlcl9pZCI6MjI1Nzc1MywiZmVhdHVyZWRfbGlzdGluZ19pZCI6OSwiZmVhdHVyZWRfcG9zaXRpb25faWQiOjI4NzA2NCwicG9zaXRpb24iOjUsImlzX3Nwb3RsaWdodCI6ZmFsc2V9:1uNEPA:4Y71bbbezUHRuw1eYJ63-cBc5wHqV_nNqS6XbG1-5qw,,5.0,"10
+                            reviews",50 - 249,software,Clutch,https://www.linkedin.com/company/nybble-group
+Simform,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6ImQwOWQ2NjcxLWE5YzAtNGFjYS04ZGEyLTcxMWMxOTNkNzRmMiIsImltcHJlc3Npb25faWQiOiJkZWNlMjFhNS1mYmU3LTRjOGMtYTYwZC1jM2Y0ZDBiYjc5ZDAiLCJwcm92aWRlcl9pZCI6MTc1NzIsImZlYXR1cmVkX2xpc3RpbmdfaWQiOjEsImZlYXR1cmVkX3Bvc2l0aW9uX2lkIjoyMzk0OTAsInBvc2l0aW9uIjoxLCJpc19zcG90bGlnaHQiOmZhbHNlfQ:1uOiR8:134wxqpck3RpnRa_UKEMYW_C6leSK-NgHWKJrYMjfuM,"Orlando, FL",4.8,"71
                         
-                            reviews",2 - 9,advertising,Clutch,https://uk.linkedin.com/company/digitalnativescontent
-Foxtail Growth,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6IjMzYWU4MzVmLTFmMDktNDFlYS1hOWI2LTM2YzA3OWM4ZDMzZiIsImltcHJlc3Npb25faWQiOiI1Y2Y1NGY4NC1kMmVjLTRkNmEtYTFhYy0xZjUxMzdiYWQyMGQiLCJwcm92aWRlcl9pZCI6MjUwMzgwNCwiZmVhdHVyZWRfbGlzdGluZ19pZCI6OSwiZmVhdHVyZWRfcG9zaXRpb25faWQiOjMwODg4MywicG9zaXRpb24iOjYsImlzX3Nwb3RsaWdodCI6ZmFsc2V9:1uNEPA:YFRfv9oLvQ10ciDIsGcI_4HJqufaIp4Uufd_PYIkdmQ,,5.0,"4
+                            reviews","1,000 - 9,999",software,Clutch,https://www.linkedin.com/company/simform
+TeaCode.io,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6ImQwOWQ2NjcxLWE5YzAtNGFjYS04ZGEyLTcxMWMxOTNkNzRmMiIsImltcHJlc3Npb25faWQiOiI5ZTg2ODJjOC1kMTRkLTQ0MjktOTUxOS1hMmE4NjU0Yzg0ZGMiLCJwcm92aWRlcl9pZCI6ODkxNTY2LCJmZWF0dXJlZF9saXN0aW5nX2lkIjoxLCJmZWF0dXJlZF9wb3NpdGlvbl9pZCI6MjUxNDE5LCJwb3NpdGlvbiI6MiwiaXNfc3BvdGxpZ2h0IjpmYWxzZX0:1uOiR8:0paCLm6JW_4DGZhf5CFSvnD0Do7-ItHgQJqQRckHNhU,"Warszawa, Poland",4.9,"30
                         
-                            reviews",2 - 9,advertising,Clutch,https://www.linkedin.com/company/foxtail-growth
-MeDM,https://www.medm.ca/b2b-and-industrial-marketing/?utm_source=clutch.co&utm_medium=referral&utm_campaign=agencies,"Calgary, Canada",5.0,"24
+                            reviews",50 - 249,software,Clutch,https://pl.linkedin.com/company/teacode.io
+NextLink Labs,https://ppc.clutch.co/ppc/click/?s=eyJkZWNpc2lvbl9pZCI6ImQwOWQ2NjcxLWE5YzAtNGFjYS04ZGEyLTcxMWMxOTNkNzRmMiIsImltcHJlc3Npb25faWQiOiI2MDM5ZDJmMS04NWRkLTQ1MDktODQ0MS1kZmI4MWI0NjBjY2YiLCJwcm92aWRlcl9pZCI6MTcxMzIxMCwiZmVhdHVyZWRfbGlzdGluZ19pZCI6MSwiZmVhdHVyZWRfcG9zaXRpb25faWQiOjI2NTYzMSwicG9zaXRpb24iOjMsImlzX3Nwb3RsaWdodCI6ZmFsc2V9:1uOiR8:poHqK1nHiRDBMwVSwLkPs4HGg8a51ny492m86AIfdN8,"Pittsburgh, PA",5.0,"10
                         
-                            reviews",10 - 49,advertising,Clutch,https://www.linkedin.com/company/medminc
-Strike Digital,https://www.strikedigital.ie/contact/?utm_source=clutch.co&utm_medium=referral&utm_campaign=directory,"Dublin, Ireland",4.9,"32
+                            reviews",10 - 49,software,Clutch,https://www.linkedin.com/company/nextlinklabs
+INOXOFT,https://inoxoft.com/?utm_source=clutch.co&utm_medium=referral&utm_campaign=developers,"Newark, DE",5.0,"64
                         
-                            reviews",10 - 49,advertising,Clutch,https://www.linkedin.com/company/strikedigital
+                            reviews",50 - 249,software,Clutch,https://www.linkedin.com/company/inoxoft

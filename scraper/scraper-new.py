@@ -7,7 +7,7 @@ import os
 from urllib.parse import urlparse, parse_qs
 
 
-# Define category URLs - so far only 3 categories
+# Define category URLs - so far only 3
 
 CATEGORY_URLS = {
     "advertising": "https://clutch.co/agencies?page=",
@@ -43,8 +43,8 @@ def scrape_category(category_name, base_url, pages=1):
             name = name_tag.get_text(strip=True) if name_tag else None
 
             # insted of the profile on clutch it should fetch the actual website -done 
-            # add another source other than cluthch
-            # figure the linkdln part
+            # add another source other than cluthch- done
+            # figure the linkdln part- done 
             # what type of companys am i scraping?? - done categorized them 
             # in my search how can i select which type od companys to search ? like advert software etc etc.- done
 
@@ -80,7 +80,7 @@ def scrape_category(category_name, base_url, pages=1):
                 "website": website,
                 "location": location,
                 "rating": rating,
-                "no_reviews": no_reviews,
+                "no_of_reviews": no_reviews,
                 "employee_size": employee_size,
                 "category": category_name,  
                 "source": "Clutch"
@@ -148,7 +148,7 @@ def scrape_goodfirms(category_name, base_url, pages=1):
                 "website": website,
                 "location": location,
                 "rating": rating,
-                "no_reviews": no_reviews,
+                "no_of_reviews": no_reviews,
                 "employee_size": employee_size,
                 "category": category_name,
                 "source": "goodfirms"
