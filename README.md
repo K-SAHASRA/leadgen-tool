@@ -80,21 +80,25 @@ LeadGen AI is a streamlined web application designed to help users explore, enri
 ```
 lead-gen/
 ├── data/
-│   ├── combined_leads.csv               # Input dataset of combined leads
-│   ├── enriched_leads_linkedin.csv      # Output file after LinkedIn enrichment
-│   ├── leads_with_company_summary.csv   # Leads data with generated company summaries
-│   └── leads_with_summary_and_tags.csv  # Leads data with summaries and AI-generated tags
-│   ├── scored_leads.csv                 # Leads data scored 
+│   ├── combined_leads.csv                 # Input dataset of combined leads
+│   ├── enriched_leads_linkedin.csv        # Output file after LinkedIn enrichment
+│   ├── leads_with_company_summary.csv     # Leads data with generated company summaries
+│   ├── leads_with_summary_and_tags.csv    # Leads data with summaries and AI-generated tags
+│   └── scored_leads.csv                   # Leads data scored
+├── scraper/
+│   └── scraper_new.py                     # Web scraping logic to fetch leads from sources like Clutch
 ├── enrichment/
-│   └── enrichment.py                    # Functions to enrich leads with LinkedIn data
+│   └── enrichment.py                      # Functions to enrich leads with LinkedIn data
 ├── scoring/
-│   └── scoring.py                      # Lead scoring and tier assignment logic
+│   └── scoring.py                         # Lead scoring and tier assignment logic
 ├── profile_summarizer/
-│   └── summarize_company.py            # AI-powered company summary generation
-├── ai_tag_generation.py                # AI tag generation based on company summaries
+│   └── summarize_company.py               # AI-powered company summary generation
+├── ai_tag_generation/
+│   └── ai_tag_generator.py                # AI tag generation based on company summaries
 ├── frontend/
-│   └── app.py                         # Main Streamlit app file for user interface and workflow
-└── README.md                         # Project documentation and instructions
+│   └── app.py                             # Streamlit app for user interface and filtering
+└── README.md                              # Project documentation and instructions
+
 ```
 
 ---
